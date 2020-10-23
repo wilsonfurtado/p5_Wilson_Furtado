@@ -79,7 +79,7 @@ fetchProducts().then(data => {
      <input type="text" class="form-control mb-2" id="firstName" placeholder="Prénom" pattern="^[-'a-zA-ZÀ-ÖØ-öø-ÿ ]{4,28}$" title=" il faut 4 à 32 lettres, sans accents sans caractères spéciaux." required>
        <input type="text" class="form-control mb-2" id="address" placeholder="Adresse" required>
        <input type="text" class="form-control mb-2" id="city" placeholder="Ville" pattern="^[-'a-zA-ZÀ-ÖØ-öø-ÿ ]{2,30}$" required>
-       <input type="email" class="form-control mb-4" id="email" placeholder="Adresse électronique" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="2 à 30 lettres, sans accents ni caractères spéciaux." required>
+       <input type="email" class="form-control mb-4" id="email" placeholder="Adresse électronique" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="il faut avoir le ce format abc@gmail.com" required>
        <button type="submit" class="btn btn-success w-100">Valider</button>
      </form>
    `;
